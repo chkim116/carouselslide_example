@@ -106,90 +106,6 @@
     }   
 
 
-    /* 판매 */
-    .contents {
-        display: flex;
-        text-align: center;
-        width: 1200px;
-        justify-content: center;
-        position: relative;
-        display: none;
-    }
-
-    .contents__about {
-        margin: 30px 50px;
-    }
-
-    .contents__image {
-        font-size: 70px;
-        width: 200px;
-        height: 200px;
-        line-height: 180px;
-        border-radius: 50%;
-        border: 1px solid black;
-    }
-
-    .contents__image i:hover {
-        transform: rotate(-10deg) scale(1.1);
-        transition: all 300ms ease-in-out;
-        color: rgb(223,133,157);
-    }
-
-    .contents h2 {
-        padding:20px;
-    }
-
-    .contents__btn {
-        background-color: rgb(49,49,49);
-        color: rgb(229,223,217);
-        border: 1px solid white;
-        border-radius: 4px;
-        margin-top: 20px;
-        padding: 10px;
-        width: 150px;
-        cursor: pointer;
-    }
-
-    .contents__btn:hover {
-        background-color: rgb(229,223,217);
-        color: rgb(49,49,49);
-    }
-
-    .contents__recommend {
-        top:5%;
-        right: 0%;
-        width: 180px;
-        height: 300px;
-        position: absolute;
-        padding: 5px;
-        cursor: default;
-        text-align: center;
-    }  
-
-    
-    .contents__recommend-icon {
-        width: 100px;
-        height: 100px;
-        border: 1px solid black;
-        border-radius: 50%;
-        margin: 10px 0;
-    }
-
-    .contents__recommend-btn {
-        margin-top: 30px;
-        border: none;
-        text-decoration: none;
-        background: none;
-        cursor: pointer;
-    }
-    .contents__recommend-btn:visited {
-        color:rgb(49,49,49);
-    }
-    .contents__recommend-btn i {
-        margin-left: 8px;
-        font-size: 12px
-    }
-
 
     @media all and (min-width: 419px)  and (max-width: 575px) {
         .navbar__menu {
@@ -232,34 +148,6 @@
     </div>
  
 </section>
-<div style="height: 35px;"></div>
-<div class="contents">
-    <div class="contents__about">
-        <div class="contents__image">
-         <i class="fas fa-shopping-bag"></i> 
-        </div>
-            <h2>대학생 가방</h2>
-            <button class="contents__btn">자세히 보기</button>
-        </div>
-
-    <div class="contents__about">
-        <div class="contents__image">
-            <i class="fas fa-tshirt"></i>
-        </div>
-           <h2>의류</h2>
-             <button class="contents__btn">자세히 보기</button>
-    </div>
-
-
-<div class="contents__recommend">
-    <img src="images/icon__hearts.png" class="contents__recommend-icon">
-    <h3>Best 10</h3><br>
-    <button class="contents__recommend-btn">
-        <a href="#" class="contents__recommend-btn">VIEW
-            <i class="fas fa-chevron-right"></i></a>
-        </button>
-</div>
-</div>
 <script defer src="slider.js"></script>
 <script defer src="https://kit.fontawesome.com/66fd1dbf65.js" crossorigin="anonymous">
 </script>
