@@ -5,4 +5,4 @@ carousel slide
 
 button slide
 
-with JS
+vanilla with JS
