@@ -1,8 +1,9 @@
 # js-slide-practice
 
+1. carousel slide
 
-carousel slide
+2. button slide
 
-button slide
+with vanilla JS
 
-vanilla with JS
+July/03/2020
