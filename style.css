@@ -73,7 +73,7 @@ h3 {
     background: url("images/uviyat_navbar.png") no-repeat center/cover;
 }
 
-.uviyat__logo {
+.main__logo {
     font-size: 1.2rem;   
     font-weight:600;
     cursor: pointer;
@@ -108,18 +108,18 @@ h3 {
     background: transparent;
 }
     
-.uviyat__sign {
+.navbar__sign {
     display: flex;
     margin: 0;
 }
 
-.uviyat__sign-items > i {
+.navbar__sign-items > i {
     padding:8px;
     margin-right:8px ;
     cursor: pointer;
 }
 
-.uviyat__sign-items > i:hover {
+.navbar__sign-items > i:hover {
     background-color: gray;
     border-radius: 15px;
 }
