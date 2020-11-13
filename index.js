@@ -95,3 +95,5 @@ function init() {
     prev.onclick = prevSlideBtn;
     next.onclick = nextSlideBtn;
 }
+
+init();
