@@ -1,9 +1,7 @@
-# js-slide-practice
+# Carousel Slider Example
 
-1. carousel slide
+1. carousel slide(with dot)
 
 2. button slide
 
-with vanilla JS
-
-July/03/2020
+with only vanilla JS
