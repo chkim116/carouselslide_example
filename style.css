@@ -21,14 +21,33 @@
     transform: translateX(-25px);
 }
 
-.slider__image {
-    border-radius: 15px;
-}
-
 .showing {
     z-index: 1;
     opacity: 1;
     transform: translateX(0px);
+}
+
+/* dot */
+
+.slider-btn {
+    display: flex;
+    z-index: 9999;
+    width: 100%;
+    justify-content: center;
+}
+
+.slider-dot {
+    width: 10px;
+    margin: 0 0.5em;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.slider-dot.active {
+    opacity: 1;
 }
 
 /* btn slide */
