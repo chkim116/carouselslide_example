@@ -1,52 +1,38 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Slide Practice</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav id="navbar">
-        <div class="main__logo">
-            Think <i class="fas fa-box"></i></div>
-        <ul class="navbar__menu">
-        <li class="navbar__menu-list">New</li>
-        <li class="navbar__menu-list">Best</li>
-        <li class="navbar__menu-list">Cross</li>
-        <li class="navbar__menu-list">Shopper</li>
-        <li class="navbar__menu-list">Clutch</li>
-        <li class="navbar__menu-list">Wallet</li>    
-        <li class="navbar__menu-list">Pouch</li>    
-    </ul>
-    <div class="navbar__sign">
-        <div class="navbar__sign-items"><i class="far fa-user"></i></div>
-        <div class="navbar__sign-items"><i class="fas fa-shopping-cart"></i></div>
-        <div class="navbar__sign-items"><i class="fas fa-bars"></i></div>
-        <div class="navbar__sign-items"><i class="fas fa-search"></i></div>
-    </div>
-</nav>
-    
-<section class="section">
-    <div class="slidesection">
-        <div class="slider showing"> <img src="images/home1.jpg" width=100% height="500px" class="slider__image"></div>
-        <div class="slider"> <img src="images/home2.jpg" width=100% height="500px" class="slider__image"></div>
-        <div class="slider"> <img src="images/home3.jpg" width=100% height="500px" class="slider__image"></div>
-    </div>
- 
-</section>
-<div class="main4">
-    <div class="slidersections">
-    <div class="sliders"><img src="images/piano-5353974_1280.jpg" width="1000px" height="660px"></div>
-    <div class="sliders"><img src="images/tractor-5377824_1280.jpg" width="1000px" height="660px"alt=""></div>
-    <div class="sliders"><img src="images/building-4781384_1280.jpg" width="1000px" height="660px" alt=""></div>
-    <div id="prev">이전</div>
-    <div id="next">다음</div>
-  </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS Slide Practice</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="slidesection">
+            <div class="slider showing">
+                <img src="images/home1.jpg" class="slider__image" />
+            </div>
+            <div class="slider">
+                <img src="images/home2.jpg" class="slider__image" />
+            </div>
+            <div class="slider">
+                <img src="images/home3.jpg" class="slider__image" />
+            </div>
+        </div>
 
-<script defer src="index.js"></script>
-<script defer src="https://kit.fontawesome.com/66fd1dbf65.js" crossorigin="anonymous">
-</script>
+        <div class="slidersections">
+            <div class="sliders">
+                <img src="images/piano-5353974_1280.jpg" />
+            </div>
+            <div class="sliders">
+                <img src="images/tractor-5377824_1280.jpg" />
+            </div>
+            <div class="sliders">
+                <img src="images/building-4781384_1280.jpg" />
+            </div>
+            <div id="prev">이전</div>
+            <div id="next">다음</div>
+        </div>
 
-</body>
+        <script defer src="index.js"></script>
+    </body>
 </html>
